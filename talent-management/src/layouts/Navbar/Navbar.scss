@@ -1,0 +1,221 @@
+.nav {
+    padding: 35px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: transparent
+      linear-gradient(
+        119deg,
+        rgba(235, 208, 255, 0.24) 0%,
+        rgba(241, 222, 255, 0.15) 100%
+      )
+      0% 0% no-repeat padding-box;
+    opacity: 1;
+  
+    &-logo {
+      margin-top: 30px;
+      img {
+        max-height: 78px;
+      }
+    }
+  
+    &-toggle {
+      display: none;
+    }
+  
+    &-menu {
+      display: none;
+      margin-top: -61px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      &-link,
+      .dropdown-link,
+      .nav-button {
+
+        color: var(--unnamed-color-2f281e);
+        text-align: center;
+        font: normal normal normal 16px/21px Poppins;
+        letter-spacing: 0px;
+        padding-left: 25px;
+        color: rgba(47, 40, 30, 1);
+        cursor: pointer;
+  
+        &:hover {
+          color: rgba(75, 182, 101, 1);
+        }
+  
+        &-login {
+          padding-left: 75px;
+          color: rgba(75, 182, 101, 1);
+  
+          &:hover {
+            font-weight: bold;
+            border-radius: 20px;
+            color: gray;
+          }
+        }
+      }
+  
+      &-dropdown {
+        &-toggle {
+        }
+  
+        &-menu {
+          &-item {
+          }
+        }
+      }
+    }
+  
+    &-button1 {
+      color: rgba(255, 255, 255, 1) !important;
+      margin-left: 35px;
+      background: rgba(75, 182, 101, 1) 0% 0% no-repeat padding-box;
+      padding: 15px 35px;
+      border: none;
+      border-radius: 50px;
+  
+      &:hover {
+        color: rgba(75, 182, 101, 1) !important;
+        background-color: white;
+      }
+    }
+  
+    &-button2 {
+      color: rgba(75, 182, 101, 1) !important;
+      outline: none;
+      background-color: #fff;
+      margin-left: 16px;
+      padding: 15px;
+      border-radius: 50%;
+      border: 1px solid rgba(75, 182, 101, 1);
+    }
+  
+    .toggle-btn {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 970px) {
+    .nav {
+      padding: 20px;
+      &-logo {
+        margin-top: 0px;
+      }
+  
+      &-toggle {
+        display: block;
+      }
+  
+      &-menu {
+        margin-top: 0px;
+        display: flex;
+        max-width: 400px;
+  
+        &-link,
+        .dropdown-link,
+        .nav-button {
+          &-login {
+            display: inline-block;
+            padding-left: 30px;
+            margin-top: 20%;
+            color: rgba(75, 182, 101, 1);
+          }
+        }
+  
+        &-dropdown {
+          &-toggle {
+          }
+  
+          &-menu {
+            &-item {
+            }
+          }
+        }
+      }
+  
+      &-button1 {
+        margin-top: 10%;
+      }
+  
+      &-button2 {
+        margin-top: 13%;
+      }
+    }
+  }
+  
+  @media (max-width: 598px) {
+    .nav {
+      padding: 10px 10px;
+      &-logo {
+        img {
+          height: 50px;
+        }
+      }
+  
+      .toggle-btn {
+        display: block !important;
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 2%;
+        margin-right: 3%;
+        cursor: pointer;
+      }
+  
+      &-menu {
+        position: absolute;
+        display: flex;
+        max-width: 100%;
+        gap: 5px;
+        flex-direction: column-reverse;
+        top: -300px;
+        right: 0;
+        left: 0;
+        transition: all 1s ease-in-out;
+  
+        &-link,
+        .dropdown-link,
+        .nav-button {
+          padding-left: 0px;
+  
+          &-login {
+            display: inline-block;
+            padding-left: 0px;
+            margin-top: 20%;
+            color: rgba(75, 182, 101, 1);
+          }
+        }
+  
+        &-dropdown {
+          &-toggle {
+          }
+  
+          &-menu {
+            &-item {
+            }
+          }
+        }
+      }
+  
+      &-button1 {
+        margin-left: 0px;
+        padding: 10px 10px 10px 100px;
+        &:hover {
+        }
+      }
+  
+      &-button2 {
+        margin-left: 0px;
+        padding-left: 5px 5px;
+      }
+    }
+  }
+  
+  .open {
+    top: 0;
+  }
+  
