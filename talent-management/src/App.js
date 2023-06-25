@@ -9,19 +9,21 @@ import {
   Blog,
   Partners,
   ListClientForm,
+  Footer
 } from "./components/";
 
 const App = () => {
   return (
     <div className="container">
       <Navbar />
-      {/* <Hero />
+      <Hero />
       <Suggestion />
       <SearchSpecialists />
       <Expirance />
       <Blog />
       <Partners />
-      <ListClientForm /> */}
+      <ListClientForm />
+      <Footer />
     </div>
   );
 };

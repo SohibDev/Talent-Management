@@ -8,25 +8,32 @@ const Navbar = () => {
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
-  
 
   return (
     <nav className="nav">
       <div className="nav-logo">
         <img src={Logo} alt="" />
       </div>
-      <button
-        class="toggle-btn"
-        onClick={toggleDropdown}
-      >
+      <button class="toggle-btn" onClick={toggleDropdown}>
         &#9776;
       </button>
 
       <ul className={`nav-menu ${isDropdownOpen ? "open" : ""}`}>
         <li>
-          <a className="nav-menu-link" href="">
-            About
-          </a>
+          <div class="dropdown">
+            <button class="dropdown-button nav-menu-link">About</button>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Company</a>
+              </li>
+              <li>
+                <a href="#">Workers</a>
+              </li>
+              <li>
+                <a href="#">Partners</a>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <a className="nav-menu-link" href="">

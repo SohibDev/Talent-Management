@@ -1,0 +1,291 @@
+.list-client-form {
+  padding: 26px 176px 100px 204px;
+  display: flex;
+  justify-content: space-between;
+
+  .logo-container {
+    position: relative;
+    margin-top: 102px;
+
+    .logo {
+      width: 175px;
+      height: 223px;
+      margin-left: 50px;
+      background: transparent url("../../images/FormLogo.svg") 0% 0% no-repeat
+        padding-box;
+    }
+
+    .dots {
+      position: absolute;
+      width: 179px;
+      height: 166px;
+
+      &:nth-child(odd) {
+        bottom: 325px;
+        left: 310px;
+      }
+
+      &:nth-child(2) {
+        left: -120px;
+        bottom: 40px;
+      }
+    }
+  }
+
+  .form-container {
+    .form-title {
+      text-align: center;
+      font: normal normal bold 48px/60px Quicksand;
+      color: #2f281e;
+      margin-bottom: 62px;
+    }
+
+    .form {
+      width: 555px;
+      height: 453px;
+
+      .form-row1 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .form-row1,
+      .form-row2 {
+        input.first-name-input,
+        input.last-name-input,
+        input.email-input,
+        input.phone-input {
+          height: 60px;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          border: 1px solid #e1cbf1;
+          border-radius: 5px;
+          cursor: pointer;
+          outline: none;
+
+          &::placeholder {
+            padding-left: 28px;
+          }
+        }
+
+        input.first-name-input,
+        input.last-name-input {
+          width: 262px;
+          &:hover {
+            background: #ffffff 0% 0% no-repeat padding-box;
+            box-shadow: 0px 10px 20px #0000001a;
+            border-radius: 5px;
+          }
+        }
+
+        input.email-input,
+        input.phone-input {
+          width: 555px;
+
+          &:hover {
+            background: #ffffff 0% 0% no-repeat padding-box;
+            box-shadow: 0px 10px 20px #0000001a;
+            border-radius: 5px;
+          }
+        }
+
+        input.email-input {
+          margin: 30px 0;
+        }
+
+        input.phone-input {
+          margin-bottom: 31px;
+        }
+      }
+    }
+    .submitContainer {
+      display: flex;
+      justify-content: center;
+      .submit {
+        padding: 19px 75px;
+        font: normal normal medium 16px/19px Roboto;
+        color: #ffffff;
+        background: transparent
+          linear-gradient(232deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat
+          padding-box;
+        border: 1px solid #00000000;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 967px) {
+  .list-client-form {
+    padding: 0px 0px 200px 0px;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+
+    .logo-container {
+      margin-top: 102px;
+
+      .logo {
+        display: flex;
+        margin: -120px auto;
+      }
+
+      .dots {
+        z-index: -1;
+
+        &:nth-child(odd) {
+          bottom: 105px;
+          left: 70px;
+        }
+
+        &:nth-child(2) {
+          left: 65%;
+          bottom: -150px;
+        }
+      }
+    }
+
+    .form-container {
+      margin: auto;
+      .form-title {
+        text-align: center;
+        margin-bottom: 62px;
+      }
+
+      .form {
+        max-width: 555px;
+
+        .form-row1,
+        .form-row2 {
+          input.first-name-input,
+          input.last-name-input {
+            width: 262px;
+            &:hover {
+              background: #ffffff 0% 0% no-repeat padding-box;
+              box-shadow: 0px 10px 20px #0000001a;
+              border-radius: 5px;
+            }
+          }
+
+          input.email-input,
+          input.phone-input {
+            &:hover {
+              background: #ffffff 0% 0% no-repeat padding-box;
+              box-shadow: 0px 10px 20px #0000001a;
+              border-radius: 5px;
+            }
+          }
+
+          input.email-input {
+            margin: 30px 0;
+          }
+
+          input.phone-input {
+            margin-bottom: 31px;
+          }
+        }
+      }
+      .submitContainer {
+        display: flex;
+        justify-content: center;
+        .submit {
+          padding: 10px 25px;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .list-client-form {
+    padding: 30px 20px 200px 20px;
+    .logo-container {
+      margin-top: 102px;
+
+      .logo {
+        display: flex;
+        margin: -120px auto;
+      }
+
+      .dots {
+        position: absolute;
+        width: 179px;
+        height: 166px;
+        z-index: -1;
+
+        &:nth-child(odd) {
+          bottom: 500px;
+          left: 0px;
+        }
+
+        &:nth-child(2) {
+          right: 0;
+          bottom: 150px;
+        }
+      }
+    }
+
+    .form-container {
+      margin: auto;
+      .form-title {
+        text-align: left;
+        font: normal normal bold 38px/40px Quicksand;
+        margin-bottom: 22px;
+      }
+
+      .form {
+        max-width: 262px;
+
+        .form-row1 {
+          gap: 30px;
+          flex-direction: column;
+        }
+
+        input.first-name-input,
+        input.last-name-input {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          &:hover {
+            background: #ffffff 0% 0% no-repeat padding-box;
+            box-shadow: 0px 10px 20px #0000001a;
+            border-radius: 5px;
+          }
+        }
+
+        input.email-input,
+        input.phone-input {
+          max-width: 262px;
+          width: 262px;
+
+          &:hover {
+            background: #ffffff 0% 0% no-repeat padding-box;
+            box-shadow: 0px 10px 20px #0000001a;
+            border-radius: 5px;
+          }
+        }
+
+        input.email-input {
+          margin: 30px 0;
+        }
+
+        input.phone-input {
+          margin-bottom: 31px;
+        }
+      }
+    }
+    .submitContainer {
+      display: flex;
+      justify-content: center;
+      .submit {
+        padding: 19px 75px;
+        font: normal normal medium 16px/19px Roboto;
+        color: #ffffff;
+        background: transparent
+          linear-gradient(232deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat
+          padding-box;
+        border: 1px solid #00000000;
+        border-radius: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,274 @@
+.list-client-form {
+  padding: 26px 176px 100px 204px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-client-form .logo-container {
+  position: relative;
+  margin-top: 102px;
+}
+.list-client-form .logo-container .logo {
+  width: 175px;
+  height: 223px;
+  margin-left: 50px;
+  background: transparent url("../../images/FormLogo.svg") 0% 0% no-repeat padding-box;
+}
+.list-client-form .logo-container .dots {
+  position: absolute;
+  width: 179px;
+  height: 166px;
+}
+.list-client-form .logo-container .dots:nth-child(odd) {
+  bottom: 325px;
+  left: 310px;
+}
+.list-client-form .logo-container .dots:nth-child(2) {
+  left: -120px;
+  bottom: 40px;
+}
+.list-client-form .form-container .form-title {
+  text-align: center;
+  font: normal normal bold 48px/60px Quicksand;
+  color: #2f281e;
+  margin-bottom: 62px;
+}
+.list-client-form .form-container .form {
+  width: 555px;
+  height: 453px;
+}
+.list-client-form .form-container .form .form-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.list-client-form .form-container .form .form-row1 input.first-name-input,
+.list-client-form .form-container .form .form-row1 input.last-name-input,
+.list-client-form .form-container .form .form-row1 input.email-input,
+.list-client-form .form-container .form .form-row1 input.phone-input,
+.list-client-form .form-container .form .form-row2 input.first-name-input,
+.list-client-form .form-container .form .form-row2 input.last-name-input,
+.list-client-form .form-container .form .form-row2 input.email-input,
+.list-client-form .form-container .form .form-row2 input.phone-input {
+  height: 60px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e1cbf1;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.list-client-form .form-container .form .form-row1 input.first-name-input::-moz-placeholder, .list-client-form .form-container .form .form-row1 input.last-name-input::-moz-placeholder, .list-client-form .form-container .form .form-row1 input.email-input::-moz-placeholder, .list-client-form .form-container .form .form-row1 input.phone-input::-moz-placeholder, .list-client-form .form-container .form .form-row2 input.first-name-input::-moz-placeholder, .list-client-form .form-container .form .form-row2 input.last-name-input::-moz-placeholder, .list-client-form .form-container .form .form-row2 input.email-input::-moz-placeholder, .list-client-form .form-container .form .form-row2 input.phone-input::-moz-placeholder {
+  padding-left: 28px;
+}
+.list-client-form .form-container .form .form-row1 input.first-name-input::placeholder,
+.list-client-form .form-container .form .form-row1 input.last-name-input::placeholder,
+.list-client-form .form-container .form .form-row1 input.email-input::placeholder,
+.list-client-form .form-container .form .form-row1 input.phone-input::placeholder,
+.list-client-form .form-container .form .form-row2 input.first-name-input::placeholder,
+.list-client-form .form-container .form .form-row2 input.last-name-input::placeholder,
+.list-client-form .form-container .form .form-row2 input.email-input::placeholder,
+.list-client-form .form-container .form .form-row2 input.phone-input::placeholder {
+  padding-left: 28px;
+}
+.list-client-form .form-container .form .form-row1 input.first-name-input,
+.list-client-form .form-container .form .form-row1 input.last-name-input,
+.list-client-form .form-container .form .form-row2 input.first-name-input,
+.list-client-form .form-container .form .form-row2 input.last-name-input {
+  width: 262px;
+}
+.list-client-form .form-container .form .form-row1 input.first-name-input:hover,
+.list-client-form .form-container .form .form-row1 input.last-name-input:hover,
+.list-client-form .form-container .form .form-row2 input.first-name-input:hover,
+.list-client-form .form-container .form .form-row2 input.last-name-input:hover {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 5px;
+}
+.list-client-form .form-container .form .form-row1 input.email-input,
+.list-client-form .form-container .form .form-row1 input.phone-input,
+.list-client-form .form-container .form .form-row2 input.email-input,
+.list-client-form .form-container .form .form-row2 input.phone-input {
+  width: 555px;
+}
+.list-client-form .form-container .form .form-row1 input.email-input:hover,
+.list-client-form .form-container .form .form-row1 input.phone-input:hover,
+.list-client-form .form-container .form .form-row2 input.email-input:hover,
+.list-client-form .form-container .form .form-row2 input.phone-input:hover {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 5px;
+}
+.list-client-form .form-container .form .form-row1 input.email-input,
+.list-client-form .form-container .form .form-row2 input.email-input {
+  margin: 30px 0;
+}
+.list-client-form .form-container .form .form-row1 input.phone-input,
+.list-client-form .form-container .form .form-row2 input.phone-input {
+  margin-bottom: 31px;
+}
+.list-client-form .form-container .submitContainer {
+  display: flex;
+  justify-content: center;
+}
+.list-client-form .form-container .submitContainer .submit {
+  padding: 19px 75px;
+  font: normal normal medium 16px/19px Roboto;
+  color: #ffffff;
+  background: transparent linear-gradient(232deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 30px;
+}
+
+@media (max-width: 967px) {
+  .list-client-form {
+    padding: 0px 0px 200px 0px;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .list-client-form .logo-container {
+    margin-top: 102px;
+  }
+  .list-client-form .logo-container .logo {
+    display: flex;
+    margin: -120px auto;
+  }
+  .list-client-form .logo-container .dots {
+    z-index: -1;
+  }
+  .list-client-form .logo-container .dots:nth-child(odd) {
+    bottom: 105px;
+    left: 70px;
+  }
+  .list-client-form .logo-container .dots:nth-child(2) {
+    left: 65%;
+    bottom: -150px;
+  }
+  .list-client-form .form-container {
+    margin: auto;
+  }
+  .list-client-form .form-container .form-title {
+    text-align: center;
+    margin-bottom: 62px;
+  }
+  .list-client-form .form-container .form {
+    max-width: 555px;
+  }
+  .list-client-form .form-container .form .form-row1 input.first-name-input,
+  .list-client-form .form-container .form .form-row1 input.last-name-input,
+  .list-client-form .form-container .form .form-row2 input.first-name-input,
+  .list-client-form .form-container .form .form-row2 input.last-name-input {
+    width: 262px;
+  }
+  .list-client-form .form-container .form .form-row1 input.first-name-input:hover,
+  .list-client-form .form-container .form .form-row1 input.last-name-input:hover,
+  .list-client-form .form-container .form .form-row2 input.first-name-input:hover,
+  .list-client-form .form-container .form .form-row2 input.last-name-input:hover {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1019607843);
+    border-radius: 5px;
+  }
+  .list-client-form .form-container .form .form-row1 input.email-input:hover,
+  .list-client-form .form-container .form .form-row1 input.phone-input:hover,
+  .list-client-form .form-container .form .form-row2 input.email-input:hover,
+  .list-client-form .form-container .form .form-row2 input.phone-input:hover {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1019607843);
+    border-radius: 5px;
+  }
+  .list-client-form .form-container .form .form-row1 input.email-input,
+  .list-client-form .form-container .form .form-row2 input.email-input {
+    margin: 30px 0;
+  }
+  .list-client-form .form-container .form .form-row1 input.phone-input,
+  .list-client-form .form-container .form .form-row2 input.phone-input {
+    margin-bottom: 31px;
+  }
+  .list-client-form .form-container .submitContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .list-client-form .form-container .submitContainer .submit {
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+}
+@media (max-width: 570px) {
+  .list-client-form {
+    padding: 30px 20px 200px 20px;
+  }
+  .list-client-form .logo-container {
+    margin-top: 102px;
+  }
+  .list-client-form .logo-container .logo {
+    display: flex;
+    margin: -120px auto;
+  }
+  .list-client-form .logo-container .dots {
+    position: absolute;
+    width: 179px;
+    height: 166px;
+    z-index: -1;
+  }
+  .list-client-form .logo-container .dots:nth-child(odd) {
+    bottom: 500px;
+    left: 0px;
+  }
+  .list-client-form .logo-container .dots:nth-child(2) {
+    right: 0;
+    bottom: 150px;
+  }
+  .list-client-form .form-container {
+    margin: auto;
+  }
+  .list-client-form .form-container .form-title {
+    text-align: left;
+    font: normal normal bold 38px/40px Quicksand;
+    margin-bottom: 22px;
+  }
+  .list-client-form .form-container .form {
+    max-width: 262px;
+  }
+  .list-client-form .form-container .form .form-row1 {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .list-client-form .form-container .form input.first-name-input,
+  .list-client-form .form-container .form input.last-name-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .list-client-form .form-container .form input.first-name-input:hover,
+  .list-client-form .form-container .form input.last-name-input:hover {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1019607843);
+    border-radius: 5px;
+  }
+  .list-client-form .form-container .form input.email-input,
+  .list-client-form .form-container .form input.phone-input {
+    max-width: 262px;
+    width: 262px;
+  }
+  .list-client-form .form-container .form input.email-input:hover,
+  .list-client-form .form-container .form input.phone-input:hover {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1019607843);
+    border-radius: 5px;
+  }
+  .list-client-form .form-container .form input.email-input {
+    margin: 30px 0;
+  }
+  .list-client-form .form-container .form input.phone-input {
+    margin-bottom: 31px;
+  }
+  .list-client-form .submitContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .list-client-form .submitContainer .submit {
+    padding: 19px 75px;
+    font: normal normal medium 16px/19px Roboto;
+    color: #ffffff;
+    background: transparent linear-gradient(232deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+  }
+}/*# sourceMappingURL=listStyleClient.css.map */

@@ -1,0 +1,241 @@
+.experience {
+  position: relative;
+  padding: 0 20px;
+  padding-bottom: 280px;
+  .expiranceContainer {
+    .inner-container {
+      max-width: 540px;
+      max-height: 350px;
+      background: #fbf5ff 0% 0% no-repeat padding-box;
+      border-radius: 80px 0px;
+      .nested-container {
+        padding: 40px 0 60px 70px;
+        .main-heading {
+          position: relative;
+          max-width: 250px;
+          font: normal normal bold 48px/60px Quicksand;
+          color: #2f281e;
+          margin-bottom: 40px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 140px;
+            max-width: 256px;
+            width: 100%;
+            border-bottom: 6px solid #4bb665;
+            border-radius: 2px;
+          }
+        }
+
+        .description {
+          max-width: 296px;
+          font: normal normal normal 18px/30px Nunito Sans;
+          color: #2f281e;
+          opacity: 0.6;
+        }
+
+        .dots-image {
+          position: absolute;
+          margin-top: 243px;
+          margin-left: -65px;
+        }
+      }
+    }
+
+    .list {
+      position: absolute;
+      top: 50px;
+      left: 450px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 0;
+      .list-item {
+        width: 270px;
+        height: 270px;
+        cursor: pointer;
+
+        &:nth-child(1) {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          box-shadow: 0px 20px 120px #afc1d11a;
+          border-radius: 0px 40px;
+        }
+
+        &:hover {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          box-shadow: 0px 20px 120px #afc1d11a;
+          border-radius: 0px 40px;
+        }
+
+        .item-container {
+          padding: 38px 0 68px 29px;
+
+          .item-image {
+            width: 57px;
+            height: 57px;
+            margin-bottom: 28px;
+          }
+
+          .item-heading {
+            font: normal normal 600 24px/32px Nunito Sans;
+            color: #2f281e;
+          }
+
+          .item-description {
+            max-width: 198px;
+            font: normal normal normal 16px/22px Nunito Sans;
+            color: #2f281e;
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 967px) {
+  .experience {
+    padding-bottom: 600px;
+    .expiranceContainer {
+      .inner-container {
+        max-width: 100%;
+        max-height: 350px;
+        .nested-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .main-heading {
+            max-width: 100%;
+
+            &::before {
+              content: "";
+            }
+          }
+
+          .description {
+            max-width: 50%;
+            font: normal normal normal 24px/40px Nunito Sans;
+          }
+
+          .dots-image {
+            position: absolute;
+            margin-top: 240px;
+            z-index: -1;
+            max-width: 200px;
+          }
+        }
+      }
+
+      .list {
+        top: 360px;
+        left: 10px;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        .list-item {
+          width: 230px;
+          height: 230px;
+
+          &:nth-child(1) {
+            background: #ffffff 0% 0% no-repeat padding-box;
+            box-shadow: 0px 20px 120px #afc1d11a;
+            border-radius: 0px 40px;
+          }
+
+          &:hover {
+            background: #fbf5ff 0% 0% no-repeat padding-box;
+          }
+
+          .item-container {
+            padding: 38px 0 68px 29px;
+
+            .item-image {
+              width: 57px;
+              height: 57px;
+              margin-bottom: 28px;
+            }
+
+            .item-heading {
+              font: normal normal 600 24px/32px Nunito Sans;
+              color: #2f281e;
+            }
+
+            .item-description {
+              max-width: 198px;
+              font: normal normal normal 16px/22px Nunito Sans;
+              color: #2f281e;
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 735px) {
+    .list-item {
+        &:nth-child(5),
+        &:nth-child(6) {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 570px) {
+  .experience {
+    padding-bottom: 530px;
+    .expiranceContainer {
+      .inner-container {
+        max-width: 100%;
+        max-height: 350px;
+        .nested-container {
+            padding: 20px 0 20px 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .main-heading {
+            font-size: 30px;
+            line-height: 33px;
+
+            &::before {
+              content: "";
+              top: 130%;
+              max-width: 70%;
+              padding: 0 20px;
+            }
+          }
+
+          .description {
+            max-width: 100%;
+            font: normal normal normal 16px/20px Nunito Sans;
+          }
+
+          .dots-image {
+            display: none;
+          }
+        }
+      }
+
+      .list {
+        top: 260px;
+        left: 10px;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        .list-item {
+          width: 230px;
+          height: 230px;
+
+          &:nth-child(2),
+          &:nth-child(3),
+          &:nth-child(5) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

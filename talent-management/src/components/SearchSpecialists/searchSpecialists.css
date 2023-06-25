@@ -1,0 +1,277 @@
+.searchSpeciality .mainContainer {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.searchSpeciality .mainContainer h1 {
+  text-align: center;
+  font: normal normal bold 48px/60px Quicksand;
+  color: #2f281e;
+}
+.searchSpeciality .mainContainer-text {
+  text-align: center;
+  color: #333333;
+}
+.searchSpeciality .mainContainer .searchContainer {
+  display: flex;
+  width: 792px;
+  height: 80px;
+  margin: 30px auto;
+  align-items: center;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e1cbf1;
+  border-radius: 50px;
+}
+.searchSpeciality .mainContainer .searchContainer .imageContainer {
+  display: flex;
+  gap: 10px;
+}
+.searchSpeciality .mainContainer .searchContainer .imageContainer .specialityImageCon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  border-radius: 50%;
+  background: #dff6ee 0% 0% no-repeat padding-box;
+}
+.searchSpeciality .mainContainer .searchContainer .imageContainer .specialityImageCon .specialtyImage {
+  width: 20px;
+  height: 20px;
+}
+.searchSpeciality .mainContainer .searchContainer .imageContainer .categoryText {
+  margin-top: 10px;
+  color: rgba(164, 162, 162, 0.53);
+  font-size: 16px;
+}
+.searchSpeciality .mainContainer .searchContainer > hr {
+  width: 2px;
+  height: 40px;
+  background-color: rgba(205, 200, 200, 0.852);
+  margin: 0 20px;
+}
+.searchSpeciality .mainContainer .searchContainer .skillInput {
+  max-width: 442px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.searchSpeciality .mainContainer .searchContainer .skillInput::-moz-placeholder {
+  color: rgba(196, 196, 196, 0.71);
+}
+.searchSpeciality .mainContainer .searchContainer .skillInput::placeholder {
+  color: rgba(196, 196, 196, 0.71);
+}
+.searchSpeciality .mainContainer .searchContainer .searchButton {
+  display: flex;
+  gap: 10px;
+  padding: 15px 35px;
+  color: #ffffff;
+  background: transparent linear-gradient(238deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  border: none;
+  outline: none;
+}
+.searchSpeciality .mainContainer .searchContainer .searchButton .searchIcon {
+  width: 25px;
+  height: 25px;
+}
+.searchSpeciality .mainContainer .categoryContainer .chooseText {
+  text-align: center;
+  font-size: 30px;
+}
+.searchSpeciality .mainContainer .categoryContainer .categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px 100px;
+}
+.searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 47px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #70d3d9;
+  border-radius: 50px;
+}
+.searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem .item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 20px;
+  gap: 20px;
+}
+.searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem .item-container .categoryName {
+  margin-top: 10px;
+}
+.searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem .item-container .categoryCount {
+  padding: 4px 10px;
+  margin-top: 15px;
+  color: #ffffff;
+  background: transparent linear-gradient(226deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+}
+.searchSpeciality .mainContainer .categoryContainer p {
+  text-align: center;
+  color: #214674;
+}
+
+@media (max-width: 967px) {
+  .searchSpeciality .mainContainer {
+    margin-top: -50px;
+    margin-bottom: 70px;
+  }
+  .searchSpeciality .mainContainer h1 {
+    font-size: 34px;
+  }
+  .searchSpeciality .mainContainer .searchContainer {
+    width: 500px;
+    height: 60px;
+    margin: 15px auto;
+  }
+  .searchSpeciality .mainContainer .searchContainer .imageContainer .specialityImageCon {
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .imageContainer .specialityImageCon .specialtyImage {
+    width: 15px;
+    height: 15px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .imageContainer .categoryText {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  .searchSpeciality .mainContainer .searchContainer > hr {
+    height: 30px;
+    margin: 0 10px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .skillInput::-moz-placeholder {
+    font-size: 14px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .skillInput::placeholder {
+    font-size: 14px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .searchButton {
+    gap: 8px;
+    padding: 12px 15px;
+    margin-right: 6px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .searchButton .searchIcon {
+    margin-top: 3.5px;
+    width: 20px;
+    height: 20px;
+    font-size: 17px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .chooseText {
+    text-align: center;
+    font-size: 20px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList {
+    justify-content: center;
+    gap: 12px;
+    padding: 20px 100px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem {
+    width: 250px;
+    height: 47px;
+    justify-content: space-between;
+    height: 47px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(7), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(8), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(9), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(10), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(11), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(12), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(13), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(14) {
+    display: none;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem .item-container {
+    justify-content: space-between;
+    padding: 13px 20px;
+    gap: 20px;
+  }
+}
+@media (max-width: 570px) {
+  .searchSpeciality .mainContainer {
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+  .searchSpeciality .mainContainer h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .searchSpeciality .mainContainer-text {
+    max-width: 400px;
+    margin-left: 20px;
+  }
+  .searchSpeciality .mainContainer .searchContainer {
+    width: 300px;
+    height: 40px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .imageContainer {
+    gap: 5px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .imageContainer .specialityImageCon {
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 7px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .imageContainer .specialityImageCon .specialtyImage {
+    width: 13px;
+    height: 13px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .imageContainer .categoryText {
+    margin-top: 17px;
+    font-size: 12px;
+  }
+  .searchSpeciality .mainContainer .searchContainer > hr {
+    height: 30px;
+    margin: 0 5px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .skillInput::-moz-placeholder {
+    font-size: 12px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .skillInput::placeholder {
+    font-size: 12px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .searchButton {
+    gap: 5px;
+    padding: 5px 8px;
+    margin-right: 2.5px;
+    margin-bottom: 0.5px;
+  }
+  .searchSpeciality .mainContainer .searchContainer .searchButton .searchIcon {
+    margin-top: 5px;
+    width: 18px;
+    height: 18px;
+    font-size: 3px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .chooseText {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList {
+    justify-content: center;
+    gap: 12px;
+    padding: 20px 40px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem {
+    width: 100%;
+    justify-content: center;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(7), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(8), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(9), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(10), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(11), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(12), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(13), .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem:nth-child(14) {
+    display: none;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem .item-container {
+    padding: 13px 20px;
+    gap: 10px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem .item-container .categoryName {
+    font-size: 15px;
+  }
+  .searchSpeciality .mainContainer .categoryContainer .categoryList .categoryItem .item-container .categoryCount {
+    padding: 3px 7px;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=searchSpecialists.css.map */
