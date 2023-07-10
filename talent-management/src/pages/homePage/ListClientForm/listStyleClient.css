@@ -11,7 +11,7 @@
   width: 175px;
   height: 223px;
   margin-left: 50px;
-  background: transparent url("../../images/FormLogo.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("../../../images/FormLogo.svg") 0% 0% no-repeat padding-box;
 }
 .list-client-form .logo-container .dots {
   position: absolute;

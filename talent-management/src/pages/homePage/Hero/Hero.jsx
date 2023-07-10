@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.css";
-import DotsHero from "../../images/DotsHero.png";
-import VRGlass from "../../images/VR-Glass.png";
-import Properties from "../../images/Properties.png";
+import DotsHero from "../../../images/DotsHero.png";
+import VRGlass from "../../../images/VR-Glass.png";
+import Properties from "../../../images/Properties.png";
 
 const Hero = () => {
   return (

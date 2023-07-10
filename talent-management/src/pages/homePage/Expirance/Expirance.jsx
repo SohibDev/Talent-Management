@@ -1,12 +1,12 @@
 import React from "react";
 import "./expirance.css";
-import Dots from '../../images/DotsHero.png'
-import Wallet from '../../images/Wallet.svg'
-import Education from '../../images/Education.svg'
-import Ecommerce from '../../images/Ecommerce.svg'
-import Bitcoin from '../../images/Bitcoin.svg'
-import EcoWide from '../../images/ecowide.svg'
-import Economic from '../../images/economic.svg'
+import Dots from '../../../images/DotsHero.png'
+import Wallet from '../../../images/Wallet.svg'
+import Education from '../../../images/Education.svg'
+import Ecommerce from '../../../images/Ecommerce.svg'
+import Bitcoin from '../../../images/Bitcoin.svg'
+import EcoWide from '../../../images/ecowide.svg'
+import Economic from '../../../images/economic.svg'
 
 const Expirance = () => {
   return (

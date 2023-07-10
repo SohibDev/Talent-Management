@@ -1,7 +1,7 @@
 import React from "react";
 import "./searchSpecialists.css";
-import Portfell from "../../images/suitcases.png";
-import SearchBtn from "../../images/lupa.svg";
+import Portfell from "../../../images/suitcases.png";
+import SearchBtn from "../../../images/lupa.svg";
 
 const SearchSpecialists = () => {
   return (

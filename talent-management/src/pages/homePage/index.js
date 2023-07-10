@@ -1,7 +1,7 @@
 //////////////////// LAYOUTS //////////////////////////////
 
-export { default as Navbar } from "../layouts/Navbar/Navbar";
-export { default as Footer } from "../layouts/Footer/Footer";
+export { default as Navbar } from "../../layouts/Navbar/Navbar";
+export { default as Footer } from "../../layouts/Footer/Footer";
 
 //////////////////// COMPONENTS //////////////////////////////
 

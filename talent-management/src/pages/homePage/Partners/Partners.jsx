@@ -1,12 +1,12 @@
 import React from "react";
 import "./partners.css";
-import AirBnb from "../../images/airbnb-2-logo-svg-vector.svg";
-import XD from "../../images/Adobe_XD_CC_icon.svg.png";
-import Google from "../../images/google-icon-logo-svg-vector.svg";
-import Instagram from "../../images/pinpng.com-instagram-png-22951.png";
-import PlayMarket from "../../images/google-play-logo-svg-vector.svg";
-import Spotify from "../../images/spotify-1-logo-svg-vector.svg";
-import Youtube from "../../images/YouTube_Logo_2017.svg";
+import AirBnb from "../../../images/airbnb-2-logo-svg-vector.svg";
+import XD from "../../../images/Adobe_XD_CC_icon.svg.png";
+import Google from "../../../images/google-icon-logo-svg-vector.svg";
+import Instagram from "../../../images/pinpng.com-instagram-png-22951.png";
+import PlayMarket from "../../../images/google-play-logo-svg-vector.svg";
+import Spotify from "../../../images/spotify-1-logo-svg-vector.svg";
+import Youtube from "../../../images/YouTube_Logo_2017.svg";
 
 const Partners = () => {
   return (

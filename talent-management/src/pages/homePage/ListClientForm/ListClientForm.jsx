@@ -1,7 +1,7 @@
 import React from "react";
 import "./listStyleClient.css";
-import Logo from "../../images/FormLogo.svg";
-import Dots from "../../images/DotsHero.png";
+import Logo from "../../../images/FormLogo.svg";
+import Dots from "../../../images/DotsHero.png";
 
 const ListClientForm = () => {
   return (

@@ -54,12 +54,12 @@
           .newsletter-input {
             width: 60%;
             height: 100%;
+            padding: 20px;
             outline: none;
             border: none;
             background-color: transparent;
 
             &::placeholder {
-              padding: 20px;
               color: #ffffff;
             }
           }

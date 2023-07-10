@@ -1,14 +1,14 @@
 import React from "react";
 import "./Suggestion.css";
-import Level from "../../images/level.svg";
-import MakingPortfolio from "../../images/MakinPortf.svg";
-import BestDev from "../../images/Becoingbestr.svg";
-import Improvment from "../../images/improving.svg";
-import FinJob from "../../images/finfing.svg";
-import Increasing from "../../images/increasing.svg";
-import Designer from "../../images/Desighner.png";
-import Child from "../../images/child.png";
-import Developer from "../../images/Developer2.png";
+import Level from "../../../images/level.svg";
+import MakingPortfolio from "../../../images/MakinPortf.svg";
+import BestDev from "../../../images/Becoingbestr.svg";
+import Improvment from "../../../images/improving.svg";
+import FinJob from "../../../images/finfing.svg";
+import Increasing from "../../../images/increasing.svg";
+import Designer from "../../../images/Desighner.png";
+import Child from "../../../images/child.png";
+import Developer from "../../../images/Developer2.png";
 
 const Suggestion = () => {
   return (

@@ -45,16 +45,15 @@
 .footer .footer-content .footer-list li.newsletter .newsletter-form .newsletter-input {
   width: 60%;
   height: 100%;
+  padding: 20px;
   outline: none;
   border: none;
   background-color: transparent;
 }
 .footer .footer-content .footer-list li.newsletter .newsletter-form .newsletter-input::-moz-placeholder {
-  padding: 20px;
   color: #ffffff;
 }
 .footer .footer-content .footer-list li.newsletter .newsletter-form .newsletter-input::placeholder {
-  padding: 20px;
   color: #ffffff;
 }
 .footer .footer-content .footer-list li.newsletter .newsletter-form .newsletter-button {

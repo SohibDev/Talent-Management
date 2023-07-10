@@ -1,8 +1,8 @@
 import React from "react";
 import "./blog.css";
-import Dots from "../../images/DotsHero.png";
-import Designer from "../../images/designer2.png";
-import Developer from "../../images/developer.png";
+import Dots from "../../../images/DotsHero.png";
+import Designer from "../../../images/designer2.png";
+import Developer from "../../../images/developer.png";
 
 const Blog = () => {
   return (

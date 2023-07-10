@@ -10,7 +10,7 @@ import {
   Partners,
   ListClientForm,
   Footer
-} from "./components/";
+} from "./pages/homePage";
 
 const App = () => {
   return (
