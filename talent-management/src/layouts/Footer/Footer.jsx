@@ -9,7 +9,7 @@ import Facebook from "../../images/facebook.png";
 
 const Footer = () => {
   return (
-    <div className="footer" data-aos="zoom-in">
+    <div className="footer">
       <div className="map"></div>
       <div className="footer-content">
         <ul className="footer-list">

@@ -1,0 +1,134 @@
+<svg id="Сгруппировать_7737" data-name="Сгруппировать 7737" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161.575" height="239.424" viewBox="0 0 161.575 239.424">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_554" data-name="Прямоугольник 554" width="161.575" height="239.424" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Прямоугольник_535" data-name="Прямоугольник 535" width="135.082" height="174.451" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Прямоугольник_536" data-name="Прямоугольник 536" width="90.594" height="31.778" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Прямоугольник_539" data-name="Прямоугольник 539" width="86.493" height="5.114" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect id="Прямоугольник_543" data-name="Прямоугольник 543" width="86.493" height="5.115" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_7736" data-name="Сгруппировать 7736" clip-path="url(#clip-path)">
+    <g id="Сгруппировать_7735" data-name="Сгруппировать 7735">
+      <g id="Сгруппировать_7734" data-name="Сгруппировать 7734" clip-path="url(#clip-path)">
+        <path id="Контур_17848" data-name="Контур 17848" d="M161.4,62.686v181.4a11.687,11.687,0,0,1-11.689,11.7H12.189A11.689,11.689,0,0,1,.5,244.088V62.686a11.684,11.684,0,0,1,11.689-11.7H149.714a11.689,11.689,0,0,1,11.689,11.7" transform="translate(-0.164 -16.696)" fill="#5763a0"/>
+        <path id="Контур_17849" data-name="Контур 17849" d="M149.714,255.784H12.189A11.689,11.689,0,0,1,.5,244.088V62.686a11.689,11.689,0,0,1,11.689-11.7H149.714a11.689,11.689,0,0,1,11.689,11.7v181.4A11.689,11.689,0,0,1,149.714,255.784Z" transform="translate(-0.164 -16.696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect id="Прямоугольник_532" data-name="Прямоугольник 532" width="144.379" height="185.367" transform="translate(8.599 44.007)" fill="#fff"/>
+        <rect id="Прямоугольник_533" data-name="Прямоугольник 533" width="144.379" height="185.367" transform="translate(8.599 44.007)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <g id="Сгруппировать_7706" data-name="Сгруппировать 7706" transform="translate(13.247 49.465)" opacity="0.12">
+          <g id="Сгруппировать_7705" data-name="Сгруппировать 7705">
+            <g id="Сгруппировать_7704" data-name="Сгруппировать 7704" clip-path="url(#clip-path-3)">
+              <rect id="Прямоугольник_534" data-name="Прямоугольник 534" width="134.41" height="173.778" transform="translate(0.336 0.337)" fill="#fff"/>
+              <path id="Контур_17850" data-name="Контур 17850" d="M218.08,326.432v4.035h-4.035" transform="translate(-83.334 -156.353)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <line id="Линия_146" data-name="Линия 146" x1="113.705" transform="translate(8.583 174.114)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="12.523 12.523"/>
+              <path id="Контур_17851" data-name="Контур 17851" d="M24.231,330.467H20.2v-4.035" transform="translate(-19.859 -156.353)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <line id="Линия_147" data-name="Линия 147" y1="153.871" transform="translate(0.336 8.318)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="11.733 11.733"/>
+              <path id="Контур_17852" data-name="Контур 17852" d="M20.2,78.084V74.048h4.035" transform="translate(-19.859 -73.712)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <line id="Линия_148" data-name="Линия 148" x2="113.705" transform="translate(12.794 0.337)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="12.523 12.523"/>
+              <path id="Контур_17853" data-name="Контур 17853" d="M214.044,74.048h4.035v4.035" transform="translate(-83.334 -73.712)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <line id="Линия_149" data-name="Линия 149" y2="153.871" transform="translate(134.746 12.263)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="11.733 11.733"/>
+            </g>
+          </g>
+        </g>
+        <path id="Контур_17854" data-name="Контур 17854" d="M130.6,21.161H111.3V13.736a13.236,13.236,0,1,0-26.472,0v7.425h-19.3A12.767,12.767,0,0,0,52.77,33.926V52.939h90.594V33.926A12.767,12.767,0,0,0,130.6,21.161M98.067,7.616a6.12,6.12,0,1,1-6.12,6.12,6.121,6.121,0,0,1,6.12-6.12" transform="translate(-17.279 -0.164)" fill="#d3deff"/>
+        <g id="Сгруппировать_7709" data-name="Сгруппировать 7709" transform="translate(35.491 20.997)" opacity="0.3" style="mix-blend-mode: multiply;isolation: isolate">
+          <g id="Сгруппировать_7708" data-name="Сгруппировать 7708">
+            <g id="Сгруппировать_7707" data-name="Сгруппировать 7707" clip-path="url(#clip-path-4)">
+              <path id="Контур_17855" data-name="Контур 17855" d="M143.364,55.136V63H52.77V43.985A12.767,12.767,0,0,1,65.535,31.22h5.2c-.619,7.028-.108,14.373,4.452,19.551,4.715,5.36,12.442,6.806,19.578,6.948,15.731.309,31.382-4.13,47.066-2.771.511.047,1.029.094,1.533.188" transform="translate(-52.77 -31.22)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <path id="Контур_17856" data-name="Контур 17856" d="M130.6,21.161H111.3V13.736a13.236,13.236,0,1,0-26.472,0v7.425h-19.3A12.767,12.767,0,0,0,52.77,33.926V52.939h90.594V33.926A12.767,12.767,0,0,0,130.6,21.161Z" transform="translate(-17.279 -0.164)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <circle id="Эллипс_89" data-name="Эллипс 89" cx="6.12" cy="6.12" r="6.12" transform="translate(74.667 7.452)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Линия_150" data-name="Линия 150" x2="58.155" transform="translate(51.71 31.604)" fill="#fff"/>
+        <line id="Линия_151" data-name="Линия 151" x2="58.155" transform="translate(51.71 31.604)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Линия_152" data-name="Линия 152" x2="58.155" transform="translate(51.71 38.15)" fill="#fff"/>
+        <line id="Линия_153" data-name="Линия 153" x2="58.155" transform="translate(51.71 38.15)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Линия_154" data-name="Линия 154" x2="58.155" transform="translate(51.71 44.697)" fill="#fff"/>
+        <line id="Линия_155" data-name="Линия 155" x2="58.155" transform="translate(51.71 44.697)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect id="Прямоугольник_537" data-name="Прямоугольник 537" width="22.845" height="22.845" transform="translate(21.971 67.575)" fill="#fff"/>
+        <rect id="Прямоугольник_538" data-name="Прямоугольник 538" width="22.845" height="22.845" transform="translate(21.971 67.575)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Контур_17857" data-name="Контур 17857" d="M162.9,105.589H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,1,1,0,5.114" transform="translate(-25.858 -32.9)" fill="#bfcfff"/>
+        <g id="Сгруппировать_7712" data-name="Сгруппировать 7712" transform="translate(53.111 76.44)" opacity="0.5">
+          <g id="Сгруппировать_7711" data-name="Сгруппировать 7711">
+            <g id="Сгруппировать_7710" data-name="Сгруппировать 7710" clip-path="url(#clip-path-5)">
+              <path id="Контур_17858" data-name="Контур 17858" d="M162.9,118.77H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,1,1,0,5.114" transform="translate(-78.969 -113.656)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Сгруппировать_7715" data-name="Сгруппировать 7715" transform="translate(53.111 85.305)" opacity="0.5">
+          <g id="Сгруппировать_7714" data-name="Сгруппировать 7714">
+            <g id="Сгруппировать_7713" data-name="Сгруппировать 7713" clip-path="url(#clip-path-5)">
+              <path id="Контур_17859" data-name="Контур 17859" d="M162.9,131.951H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,0,1,0,5.114" transform="translate(-78.969 -126.837)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <rect id="Прямоугольник_541" data-name="Прямоугольник 541" width="22.845" height="22.845" transform="translate(21.971 106.919)" fill="#fff"/>
+        <rect id="Прямоугольник_542" data-name="Прямоугольник 542" width="22.845" height="22.845" transform="translate(21.971 106.919)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Контур_17860" data-name="Контур 17860" d="M162.9,164.089H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,0,1,0,5.114" transform="translate(-25.858 -52.055)" fill="#bfcfff"/>
+        <g id="Сгруппировать_7718" data-name="Сгруппировать 7718" transform="translate(53.111 115.784)" opacity="0.5">
+          <g id="Сгруппировать_7717" data-name="Сгруппировать 7717">
+            <g id="Сгруппировать_7716" data-name="Сгруппировать 7716" clip-path="url(#clip-path-7)">
+              <path id="Контур_17861" data-name="Контур 17861" d="M162.9,177.27H81.526a2.557,2.557,0,1,1,0-5.114H162.9a2.557,2.557,0,1,1,0,5.114" transform="translate(-78.969 -172.155)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Сгруппировать_7721" data-name="Сгруппировать 7721" transform="translate(53.111 124.65)" opacity="0.5">
+          <g id="Сгруппировать_7720" data-name="Сгруппировать 7720">
+            <g id="Сгруппировать_7719" data-name="Сгруппировать 7719" clip-path="url(#clip-path-5)">
+              <path id="Контур_17862" data-name="Контур 17862" d="M162.9,190.451H81.526a2.557,2.557,0,1,1,0-5.114H162.9a2.557,2.557,0,0,1,0,5.114" transform="translate(-78.969 -185.337)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <rect id="Прямоугольник_545" data-name="Прямоугольник 545" width="22.845" height="22.845" transform="translate(21.971 146.264)" fill="#fff"/>
+        <rect id="Прямоугольник_546" data-name="Прямоугольник 546" width="22.845" height="22.845" transform="translate(21.971 146.264)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Контур_17863" data-name="Контур 17863" d="M162.9,222.589H81.526a2.557,2.557,0,1,1,0-5.114H162.9a2.557,2.557,0,1,1,0,5.114" transform="translate(-25.858 -71.21)" fill="#bfcfff"/>
+        <g id="Сгруппировать_7724" data-name="Сгруппировать 7724" transform="translate(53.111 155.129)" opacity="0.5">
+          <g id="Сгруппировать_7723" data-name="Сгруппировать 7723">
+            <g id="Сгруппировать_7722" data-name="Сгруппировать 7722" clip-path="url(#clip-path-7)">
+              <path id="Контур_17864" data-name="Контур 17864" d="M162.9,235.77H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,0,1,0,5.114" transform="translate(-78.969 -230.655)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Сгруппировать_7727" data-name="Сгруппировать 7727" transform="translate(53.111 163.994)" opacity="0.5">
+          <g id="Сгруппировать_7726" data-name="Сгруппировать 7726">
+            <g id="Сгруппировать_7725" data-name="Сгруппировать 7725" clip-path="url(#clip-path-7)">
+              <path id="Контур_17865" data-name="Контур 17865" d="M162.9,248.951H81.526a2.557,2.557,0,1,1,0-5.114H162.9a2.557,2.557,0,0,1,0,5.114" transform="translate(-78.969 -243.836)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <rect id="Прямоугольник_549" data-name="Прямоугольник 549" width="22.845" height="22.845" transform="translate(21.971 185.609)" fill="#fff"/>
+        <rect id="Прямоугольник_550" data-name="Прямоугольник 550" width="22.845" height="22.845" transform="translate(21.971 185.609)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Контур_17866" data-name="Контур 17866" d="M162.9,281.089H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,1,1,0,5.114" transform="translate(-25.858 -90.366)" fill="#bfcfff"/>
+        <g id="Сгруппировать_7730" data-name="Сгруппировать 7730" transform="translate(53.111 194.474)" opacity="0.5">
+          <g id="Сгруппировать_7729" data-name="Сгруппировать 7729">
+            <g id="Сгруппировать_7728" data-name="Сгруппировать 7728" clip-path="url(#clip-path-5)">
+              <path id="Контур_17867" data-name="Контур 17867" d="M162.9,294.27H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,0,1,0,5.114" transform="translate(-78.969 -289.155)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Сгруппировать_7733" data-name="Сгруппировать 7733" transform="translate(53.111 203.339)" opacity="0.5">
+          <g id="Сгруппировать_7732" data-name="Сгруппировать 7732">
+            <g id="Сгруппировать_7731" data-name="Сгруппировать 7731" clip-path="url(#clip-path-5)">
+              <path id="Контур_17868" data-name="Контур 17868" d="M162.9,307.451H81.526a2.557,2.557,0,0,1,0-5.114H162.9a2.557,2.557,0,1,1,0,5.114" transform="translate(-78.969 -302.337)" fill="#d3deff"/>
+            </g>
+          </g>
+        </g>
+        <path id="Контур_17869" data-name="Контур 17869" d="M52.032,121.729a2.012,2.012,0,0,1-1.4-.564l-13.108-12.61a2.018,2.018,0,0,1,2.8-2.909l13.109,12.611a2.018,2.018,0,0,1-1.4,3.472" transform="translate(-12.085 -34.409)" fill="#ff3939"/>
+        <path id="Контур_17870" data-name="Контур 17870" d="M38.925,121.729a2.018,2.018,0,0,1-1.4-3.472l13.109-12.611a2.018,2.018,0,0,1,2.8,2.909l-13.108,12.61a2.012,2.012,0,0,1-1.4.564" transform="translate(-12.085 -34.408)" fill="#ff3939"/>
+        <path id="Контур_17871" data-name="Контур 17871" d="M52.032,238.729a2.012,2.012,0,0,1-1.4-.564l-13.108-12.61a2.018,2.018,0,1,1,2.8-2.908l13.109,12.61a2.018,2.018,0,0,1-1.4,3.472" transform="translate(-12.085 -72.719)" fill="#ff3939"/>
+        <path id="Контур_17872" data-name="Контур 17872" d="M38.925,238.729a2.018,2.018,0,0,1-1.4-3.472l13.109-12.61a2.018,2.018,0,1,1,2.8,2.908l-13.108,12.61a2.012,2.012,0,0,1-1.4.564" transform="translate(-12.085 -72.719)" fill="#ff3939"/>
+        <path id="Контур_17873" data-name="Контур 17873" d="M52.032,297.229a2.012,2.012,0,0,1-1.4-.564L37.525,284.054a2.018,2.018,0,1,1,2.8-2.908l13.109,12.611a2.018,2.018,0,0,1-1.4,3.472" transform="translate(-12.085 -91.874)" fill="#ff3939"/>
+        <path id="Контур_17874" data-name="Контур 17874" d="M38.925,297.228a2.018,2.018,0,0,1-1.4-3.472l13.109-12.611a2.018,2.018,0,0,1,2.8,2.908L40.323,296.665a2.012,2.012,0,0,1-1.4.564" transform="translate(-12.085 -91.874)" fill="#ff3939"/>
+      </g>
+    </g>
+  </g>
+</svg>

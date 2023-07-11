@@ -1,28 +1,18 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import {
-  Navbar,
-  Hero,
-  Suggestion,
-  SearchSpecialists,
-  Expirance,
-  Blog,
-  Partners,
-  ListClientForm,
-  Footer
-} from "./pages/homePage";
+import { Navbar, Footer, Home } from "./pages";
+import RegisterFirst from "./pages/registerOnePage/app";
 
 const App = () => {
   return (
     <div className="container">
       <Navbar />
-      <Hero />
-      <Suggestion />
-      <SearchSpecialists />
-      <Expirance />
-      <Blog />
-      <Partners />
-      <ListClientForm />
+      <RegisterFirst />
+      {/* <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Home />} />
+      </Routes> */}
       <Footer />
     </div>
   );

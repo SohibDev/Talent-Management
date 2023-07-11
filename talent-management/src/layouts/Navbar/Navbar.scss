@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   background: transparent
     linear-gradient(
       119deg,
@@ -13,7 +14,7 @@
   opacity: 1;
 
   &-logo {
-    margin-top: 30px;
+    margin-top: -10px;
     z-index: 109;   
     img {
       max-height: 78px;
@@ -27,7 +28,6 @@
 
   &-menu {
     display: none;
-    margin-top: -61px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;

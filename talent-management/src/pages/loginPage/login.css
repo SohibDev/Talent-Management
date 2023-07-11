@@ -1,0 +1,92 @@
+.login {
+  display: flex;
+  align-items: center;
+  background: transparent linear-gradient(119deg, rgba(235, 208, 255, 0.24) 0%, rgba(241, 222, 255, 0.15) 100%) 0% 0% no-repeat padding-box;
+}
+.login .logo {
+  max-height: 600px;
+  overflow: hidden;
+}
+.login .logo img {
+  margin-top: -130px;
+}
+.login .login-form .form-title {
+  text-align: center;
+  font: normal normal bold 34px/43px Quicksand;
+  color: #2f281e;
+  margin-bottom: 38px;
+}
+.login .login-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login .login-form form .input-field {
+  padding: 14px 130px 16px 18px;
+  background: #ffffff;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+.login .login-form form .input-field:focus {
+  box-shadow: 5px 8px 35px rgba(0, 0, 0, 0.1490196078);
+  border: 1px solid #6684f2;
+}
+.login .login-form form .input-field:nth-child(1) {
+  margin-bottom: 20px;
+}
+.login .login-form form .sign-in-button {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 34px;
+  padding: 14px 130px;
+  font: normal normal 600 16px Open Sans;
+  color: #ffffff;
+  background: transparent linear-gradient(247deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 30px;
+}
+.login .login-form a.profile-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font: normal normal bold 18px Open Sans;
+  letter-spacing: 0px;
+  color: #44aeb0;
+}
+
+@media (max-width: 970px) {
+  .login {
+    padding: 0px 40px 0px 0px;
+  }
+  .login .logo {
+    width: 400px;
+  }
+  .login .logo img {
+    margin-left: -150px;
+  }
+}
+@media (max-width: 570px) {
+  .login {
+    padding: 0px 40px 0px 0px;
+    flex-direction: column;
+  }
+  .login .logo {
+    max-height: 400px;
+    width: 400px;
+  }
+  .login .logo img {
+    margin-left: -70px;
+    width: 600px;
+    height: 600px;
+  }
+  .login .login-form {
+    padding: 20px 50px 30px 100px;
+  }
+  .login .login-form .form-title {
+    margin-top: 20px;
+  }
+  .login .login-form form .input-field .sign-in-button {
+    margin-bottom: 34px;
+  }
+}/*# sourceMappingURL=login.css.map */

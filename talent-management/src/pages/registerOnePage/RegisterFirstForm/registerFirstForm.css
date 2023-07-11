@@ -1,0 +1,98 @@
+.register-first-form {
+  padding: 80px 270px 170px 120px;
+  display: flex;
+  justify-content: space-between;
+  background: transparent linear-gradient(119deg, rgba(235, 208, 255, 0.24) 0%, rgba(241, 222, 255, 0.15) 100%) 0% 0% no-repeat padding-box;
+  display: flex;
+}
+.register-first-form .form-header {
+  width: 510px;
+  height: 440px;
+}
+.register-first-form .form-header .form-image {
+  margin-left: -30px;
+  max-width: 600px;
+  max-height: 509px;
+}
+.register-first-form .form-container {
+  display: flex;
+  flex-direction: column;
+}
+.register-first-form .form-container .form-label {
+  font: normal normal normal 14px/24px Poppins;
+  color: #000000;
+}
+.register-first-form .form-container .form-input {
+  margin-bottom: 25px;
+  padding: 14px 290px 16px 19px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ebebeb;
+  border-radius: 25px;
+  outline: none;
+}
+.register-first-form .form-container .form-input:focus {
+  box-shadow: 5px 8px 35px rgba(0, 0, 0, 0.1490196078);
+  border: 1px solid #6684f2;
+}
+.register-first-form .form-container .form-input::-moz-placeholder {
+  font: normal normal normal 14px/24px Poppins;
+  color: #959595;
+}
+.register-first-form .form-container .form-input::placeholder {
+  font: normal normal normal 14px/24px Poppins;
+  color: #959595;
+}
+.register-first-form .form-container .form-button {
+  margin-top: 20px;
+  padding: 15px 0px;
+  text-align: center;
+  font: normal normal 600 16px Open Sans;
+  color: #ffffff;
+  background: transparent linear-gradient(253deg, #4bb665 0%, #41aad2 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 30px;
+}
+
+@media (max-width: 967px) {
+  .register-first-form {
+    padding: 10px 0px 100px 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .register-first-form .form-container {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 570px) {
+  .register-first-form {
+    padding: 10px 0px 100px 0px;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    display: flex;
+  }
+  .register-first-form .form-header {
+    width: 510px;
+    height: 230px;
+  }
+  .register-first-form .form-header .form-image {
+    margin-left: 100px;
+    max-width: 300px;
+  }
+  .register-first-form .form-container .form-input {
+    margin-bottom: 25px;
+    padding: 14px 100px 16px 19px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #ebebeb;
+    border-radius: 25px;
+    outline: none;
+  }
+  .register-first-form .form-container .form-input::-moz-placeholder {
+    font: normal normal normal 14px/24px Poppins;
+    color: #959595;
+  }
+  .register-first-form .form-container .form-input::placeholder {
+    font: normal normal normal 14px/24px Poppins;
+    color: #959595;
+  }
+}/*# sourceMappingURL=registerFirstForm.css.map */

@@ -3,11 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   background: transparent linear-gradient(119deg, rgba(235, 208, 255, 0.24) 0%, rgba(241, 222, 255, 0.15) 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 .nav-logo {
-  margin-top: 30px;
+  margin-top: -10px;
   z-index: 109;
 }
 .nav-logo img {
@@ -18,7 +19,6 @@
 }
 .nav-menu {
   display: none;
-  margin-top: -61px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;

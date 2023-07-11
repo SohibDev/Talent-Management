@@ -1,0 +1,103 @@
+.register-first-form {
+  padding: 80px 270px 170px 120px;
+  display: flex;
+  justify-content: space-between;
+
+  background: transparent
+    linear-gradient(
+      119deg,
+      rgba(235, 208, 255, 0.24) 0%,
+      rgba(241, 222, 255, 0.15) 100%
+    )
+    0% 0% no-repeat padding-box;
+
+  display: flex;
+
+  .form-header {
+    width: 510px;
+    height: 440px;
+    .form-title {
+    }
+
+    .form-image {
+      margin-left: -30px;
+      max-width: 600px;
+      max-height: 509px;
+    }
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+
+    .form-label {
+      font: normal normal normal 14px/24px Poppins;
+      color: #000000;
+    }
+
+    .form-input {
+      margin-bottom: 25px;
+      padding: 14px 290px 16px 19px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #ebebeb;
+      border-radius: 25px;
+      outline: none;
+
+      &:focus {
+        box-shadow: 5px 8px 35px #00000026;
+        border: 1px solid #6684f2;
+      }
+
+      &::placeholder {
+        font: normal normal normal 14px/24px Poppins;
+        color: #959595;
+      }
+    }
+
+    .form-button {
+      margin-top: 20px;
+      padding: 15px 0px;
+      text-align: center;
+      font: normal normal 600 16px Open Sans;
+      color: #ffffff;
+      background: transparent linear-gradient(253deg, #4bb665 0%, #41aad2 100%)
+        0% 0% no-repeat padding-box;
+      border: 1px solid #00000000;
+      border-radius: 30px;
+    }
+  }
+}
+
+@media (max-width: 967px) {
+  .register-first-form {
+    padding: 10px 0px 100px 0px;
+    align-items: center;
+    flex-direction: column;
+
+    .form-container {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .register-first-form {
+    padding: 10px 0px 100px 0px;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+
+    display: flex;
+
+    .form-header {
+      width: 510px;
+      height: 230px;
+
+      .form-image {
+        margin-left: 100px;
+        max-width: 300px;
+      }
+    }
+    }
+  }
+}
